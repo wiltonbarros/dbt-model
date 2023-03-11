@@ -5,7 +5,7 @@ snowflake-dw:
       type: snowflake
       account: csb75620.us-east-1
 
-      #user/password auth
+      # User/password auth
       user: AIRBYTE_USER
       password: AIRBYTE_PASSWORD
 
@@ -17,8 +17,8 @@ snowflake-dw:
       client_session_keep_alive: False
       query_tag: dbt-q
 
-      #optional
-      connect_retries: 0 #default 0
-      connect_timeout: 10 #default 10
-      retry_on_database_errors: False # default: False
-      retry_all: False #default: False
+      # optional
+      connect_retries: 0 # default 0
+      connect_timeout: 10 # default: 10
+      retry_on_database_errors: False # default: false 
+      retry_all: False  # default: false
